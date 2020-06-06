@@ -1,0 +1,265 @@
+@import './bootstrap.min.css';
+@font-face {
+    font-family: 'amir';
+    src: url('/assets/fonts/iran.woff2') format('woff2'), /* Super Modern Browsers */
+         url('/assets/fonts/iran.woff') format('woff'), /* Pretty Modern Browsers */
+         url('/assets/fonts/iran.ttf')  format('truetype'), /* Safari, Android, iOS */
+  }
+p{
+    margin-bottom: 2px!important;
+}
+.row{
+    margin-left: 0!important;
+    margin-right: 0!important;
+}
+body{
+    direction: rtl;
+    text-align: right;
+    font-family: 'amir';
+}
+.header-sidebar{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    width: 100%;
+}
+
+.footer-sidebar{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+}
+.vs-sidebar{
+    max-width: 350px !important;
+}
+.container_product{
+    position: relative;
+}
+.plus_icon_on_product{
+    color:#51B63A;
+    border: 0.4px solid #51B63A;
+    border-radius: 50%;
+    padding: 2px;
+    position: absolute;
+    top: 5px;
+    right: 10px;
+    text-align: right;   
+}
+
+.col_product{
+    background: #FFFFFF;
+    padding: 15px;
+}
+.control_cart_hide{
+    display: none;
+}
+.show_control{
+    display: inline;
+}
+
+.product_price{
+    text-align: left;
+    padding-left: 40px;
+    font-size: 14px;
+    padding-top: 10px;
+}
+.product_name{
+    text-align: right;
+    padding-right: 20px;
+    font-size: 15px;
+    padding-top: 10px;
+}
+.product_desc{
+    text-align: right;
+    padding-right: 20px;
+    font-size: 12px;
+}
+.qincart{
+    text-align:center;
+    margin-top:10px;
+    width: 60px;
+}
+.footer-sidebar{
+    display: block;
+}
+.control_cart{
+    position:absolute;
+    width:90%;
+    background:#FFFFF9;
+    height:45px;
+    box-shadow:rgba(0, 0, 0, 0.25) 0px 3px 10px;
+    border-radius:3px;
+    margin-top: 5px;
+}
+.img_product{
+    padding-top:25px;
+}
+
+.pincart{
+    position: absolute;
+    top:21px;
+    right: -8px;
+    background: white;
+    border:0.4px solid black;
+    border-radius: 25%;
+}
+.mincart{
+    position: absolute;
+    top:21px;
+    right: 43px;
+    background: white;
+    border:0.4px solid black;
+    border-radius: 25%;
+}
+.dincart{
+    position: absolute;
+    top:21px;
+    right: 43px;
+    background: white;
+    border:0.4px solid black;
+    border-radius: 25%;
+}
+.cate_slide{
+    padding: 15px 30px 15px 2px;
+    font-size: 20px;
+}
+
+.header_store{
+    background: gray;
+    height: 230px;
+}
+
+.store_image{
+    width:95px;
+}
+.store_name{
+    color:white;
+    font-weight: bold;
+    padding: 3px;
+    font-size:22px;
+}
+.store_desc{
+    color:white;
+    font-size:15px; 
+}
+.vs-con-input-label{
+    width: 90%!important;
+    text-align: center;
+    margin: auto;
+}
+.vuesax-app-is-ltr .vs-input--icon{
+    padding-left: 8px;
+    padding-right: 8px!important;
+}
+
+.vs-con-input-label .vs-con-input{
+    text-align: right;
+}
+.vuesax-app-is-ltr .vs-input--input.hasIcon+.vs-input--placeholder{
+    padding-top: 10px;
+    padding-right: 18px;
+}
+
+
+@media screen and (max-width: 480px) {
+    .account_header{
+        display: none;
+    }
+    .hidein_mobile{
+        display: none;
+    }
+    .list_store{
+        display: none;
+    }
+    .store_info{
+        margin-top: -5px!important;
+    }
+    .header_store{
+        height: 265px;
+    }
+    .select_store_img{
+        width: 90px!important;
+    }
+    .select_store_desc{
+        font-size: 10px;
+    }
+    .login_box{
+        height: 450px!important;
+    }
+    .login_top_margin{
+        padding:90px!important;
+    }
+    .signin_hide_image{
+        display: none;
+    }
+    .login_input_box{
+        padding:60px 5px 0px 0px!important;
+    }
+  }
+.store_info{
+    text-align:center;
+    margin-top:-40px;
+    padding-left:0px;
+}  
+
+.VueCarousel{
+    width: 98%;
+}
+
+.select_store_img{
+    width: 140px;
+}
+.select_store_title{
+    font-weight: bold;
+}
+    
+.select_store_stock{
+    font-size:9px;
+}
+.vs-popup--content{
+    padding: 20px;
+}
+.vs-popup--title h3{
+    padding: 12px 11px 2px 5px;
+}
+.vuesax-app-is-ltr .vs-sidebar.vs-sidebar-position-right{
+    opacity: .92;
+}
+.login_background{
+    background:linear-gradient(-135deg, #c850c0, #4158d0);
+    height: 100vh;
+}
+.login_top_margin{
+    padding:10px;
+}
+.login_box{
+    height: 640px;
+    background: white;
+    border-radius: 20px;
+    text-align: center;
+    margin: auto;
+}
+.login_input_box{
+    padding: 100px 30px 0px 0px ;
+}
+.login_create_account{
+    padding-top: 110px;
+}
+.login_img_top{
+    padding-top: 150px;
+}
+.checkout_box{
+    background: white;
+
+}
+.vs-con-input-label{
+    text-align: right;
+}
+.head_checkout{
+    height: 90px;
+}
+.con-vs-radio{
+    justify-content: right!important;
+}

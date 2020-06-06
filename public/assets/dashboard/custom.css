@@ -1,0 +1,29 @@
+body{
+    direction: rtl;
+    text-align: right;
+}
+
+.fixed-sidebar .app-main .app-main__outer{
+    padding-left: 0;
+    padding-right: 280px;
+}
+
+@media (max-width: 991.98px){
+    .app-main .app-main__outer {
+        padding-right: 0px!important;
+    }
+    .app-sidebar{
+        transform: translateX(280px);
+    }
+}
+
+.closed-sidebar.fixed-sidebar .app-main__outer{
+    padding-right: 80px;
+}
+
+.ps--active-x>.ps__rail-x, .ps--active-y>.ps__rail-y{
+    display: none;
+}
+.fixed-header .app-header .app-header__logo{
+    direction: ltr;
+}
