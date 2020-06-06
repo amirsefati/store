@@ -24,10 +24,10 @@ class CreateItemsTable extends Migration
             $table->text('size')->nullable();
             $table->integer('show')->default(0);
             $table->integer('slide')->default(0);
-            $table->text('off')->default(0);
+            $table->double('off')->default(0);
             $table->text('per_price')->nullable();
             $table->integer('quantity')->default(0);
-            $table->text('instruction')->default(0);
+            $table->double('instruction')->default(0);
             $table->integer('relate')->default(0);
             $table->text('etc')->nullable();
             $table->timestamps();

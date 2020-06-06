@@ -26,7 +26,7 @@ class AdminController extends Controller
         $folder = '/assets/products/' . str_replace(" ","_",$request->cate) . "/" . str_replace(" ","_",$request->sub_cate) . "/";
         $imgname = str_replace(" ","_",$request->name);
         $request->img->move(public_path($folder), $imgname . ".png");
-        $full = $folder . $imgname . ".png";
+        $full = '/public/' . $folder . $imgname . ".png";
 
         Item::create([
             'name' => $request->name,
